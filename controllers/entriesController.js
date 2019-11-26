@@ -11,7 +11,10 @@ module.exports = {
             overallMotivation: req.body.overallMotivation,
             overallHappiness: req.body.overallHappiness,
             morningEnergy: req.body.morningEnergy,
-
+            bedTime: req.body.bedTime,
+            wakeUpTime: req.body.wakeUpTime,
+            sleepTime: req.body.sleepTime,
+            comment: req.body.comment || ""
             /*
             Ideas: Comment, activities, bedtime, new things,
              */

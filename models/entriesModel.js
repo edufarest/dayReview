@@ -14,6 +14,11 @@ let EntrySchema = new Schema({
     overallMotivation: numRank,
     overallHappiness: numRank,
     morningEnergy: numRank,
+    bedTime: Date,
+    wakeUpTime: Date,
+    sleepTime: Number,
+    comment: String,
+    // activities: [] // Include start, finish, and if done, and perhaps a rating
     // Can add more in future
 
 });

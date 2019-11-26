@@ -4,11 +4,12 @@ let Schema = mongoose.Schema;
 let numRank = {
     type: Number,
     min: 0,
-    max: 10
+    max: 10,
+    required: true
 };
 
 let EntrySchema = new Schema({
-    date: Date, // use doc.markModified when updating this field
+    date: Date,
     overallEnergy: numRank,
     overallMotivation: numRank,
     overallHappiness: numRank,

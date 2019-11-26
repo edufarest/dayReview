@@ -11,6 +11,10 @@ module.exports = {
             overallMotivation: req.body.overallMotivation,
             overallHappiness: req.body.overallHappiness,
             morningEnergy: req.body.morningEnergy,
+
+            /*
+            Ideas: Comment, activities, bedtime, new things,
+             */
         });
 
         return entry.save().then((newEntry) => {
